@@ -15,3 +15,4 @@ print(f'Found {len(container_elements)} videos')
 title_element = container_elements[0].find_element(By.ID, 'video-title')
 title = title_element.get_attribute('title')
 print('Title:', title)
+

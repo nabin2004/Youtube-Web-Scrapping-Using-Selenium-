@@ -1,4 +1,0 @@
-import os
-
-SENDER_PASSWORD = os.environ['GMAIL_PASSWORD']
-print(SENDER_PASSWORD)

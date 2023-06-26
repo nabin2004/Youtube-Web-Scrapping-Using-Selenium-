@@ -13,7 +13,6 @@ container_elements = driver.find_elements(By.CSS_SELECTOR, container_name) #Clas
 print('Container name:', container_name) #Name of div
 print(f'Found {len(container_elements)} videos') # number of videos
 
-<<<<<<< HEAD
 def get_name(i):
     #Name of Video
     video = container_elements[i].find_element(By.ID, 'video-title')
@@ -57,9 +56,7 @@ description_text = container_elements[0].find_element(By.ID, 'description-text')
 print(description_text)
 
 print('----------------------------------------------------')
-=======
 title_element = container_elements[0].find_element(By.ID, 'video-title')
 title = title_element.get_attribute('title')
 print('Title:', title)
 
->>>>>>> 91c2cc87b699db970d5bcf0e34b4574a8b8160ff
